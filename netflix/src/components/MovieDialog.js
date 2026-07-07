@@ -26,6 +26,7 @@ export default function MovieDialog() {
         aria-describedby="alert-dialog-description" 
       >
        <DialogContent>
+        <DialogTitle>Movie Details</DialogTitle>
           <DialogContentText id="alert-dialog-description">
             <VideoBackground movieId={id} bool = {true}/>
           </DialogContentText>
